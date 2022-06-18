@@ -1,0 +1,45 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "./atcoder/abc/abc224/aaa/"
+		},
+		{
+			"path": "./atcoder/abc/abc224/bbb/"
+		},
+		{
+			"path": "./atcoder/abc/abc224/ccc/"
+		},
+		{
+			"path": "./atcoder/abc/abc224/ddd/"
+		},
+		{
+			"path": "./atcoder/abc/abc224/eee/"
+		},
+		{
+			"path": "./atcoder/abc/abc224/fff/"
+		},
+		{
+			"path": "./atcoder/abc/abc224/ggg/"
+		},
+		{
+			"path": "./atcoder/abc/abc224/hhh/"
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "rust-lang.rust-analyzer",
+		"rust-analyzer.linkedProjects": [
+			"/app/atcoder/abc/abc224/aaa/Cargo.toml",
+			"/app/atcoder/abc/abc224/bbb/Cargo.toml",
+			"/app/atcoder/abc/abc224/ccc/Cargo.toml",
+			"/app/atcoder/abc/abc224/ddd/Cargo.toml",
+			"/app/atcoder/abc/abc224/eee/Cargo.toml",
+			"/app/atcoder/abc/abc224/fff/Cargo.toml",
+			"/app/atcoder/abc/abc224/ggg/Cargo.toml",
+			"/app/atcoder/abc/abc224/hhh/Cargo.toml",
+		],
+	}
+}
