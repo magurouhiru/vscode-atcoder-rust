@@ -1,0 +1,14 @@
+{
+    "name": "vscode_atcoder_rust",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "vscode_atcoder_rust",
+    "extensions": [
+		"vadimcn.vscode-lldb",
+		"bungcip.better-toml",
+		"rust-lang.rust-analyzer"
+	],
+    "workspaceFolder": "/app",
+    "forwardPorts": [
+        7878
+    ]
+}
