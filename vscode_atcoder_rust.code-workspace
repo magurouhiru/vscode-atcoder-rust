@@ -3,11 +3,43 @@
 		{
 			"path": "."
 		},
+    {
+      "path": "/app/atcoder/abc/abc222/abc222_A"
+    },
+    {
+      "path": "/app/atcoder/abc/abc222/abc222_B"
+    },
+    {
+      "path": "/app/atcoder/abc/abc222/abc222_C"
+    },
+    {
+      "path": "/app/atcoder/abc/abc222/abc222_D"
+    },
+    {
+      "path": "/app/atcoder/abc/abc222/abc222_E"
+    },
+    {
+      "path": "/app/atcoder/abc/abc222/abc222_F"
+    },
+    {
+      "path": "/app/atcoder/abc/abc222/abc222_G"
+    },
+    {
+      "path": "/app/atcoder/abc/abc222/abc222_H"
+    },
 	],
 	"settings": {
 		"editor.formatOnSave": true,
 		"editor.defaultFormatter": "rust-lang.rust-analyzer",
 		"rust-analyzer.linkedProjects": [
- 		],
+      "/app/atcoder/abc/abc222/abc222_A/Cargo.toml",
+      "/app/atcoder/abc/abc222/abc222_B/Cargo.toml",
+      "/app/atcoder/abc/abc222/abc222_C/Cargo.toml",
+      "/app/atcoder/abc/abc222/abc222_D/Cargo.toml",
+      "/app/atcoder/abc/abc222/abc222_E/Cargo.toml",
+      "/app/atcoder/abc/abc222/abc222_F/Cargo.toml",
+      "/app/atcoder/abc/abc222/abc222_G/Cargo.toml",
+      "/app/atcoder/abc/abc222/abc222_H/Cargo.toml",
+		],
 	}
 }
