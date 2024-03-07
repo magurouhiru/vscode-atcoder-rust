@@ -1,4 +1,4 @@
-FROM debian:bookworm-20220527-slim
+FROM debian:stable-slim
 
 WORKDIR /app
 
