@@ -4,6 +4,11 @@
         "dockerfile": "Dockerfile",
         "context": "..",
         "args": {
+            "RUST_VERSION": "1.70.0",
+            "RUST_USERNAME": "atcoder",
+            "RUST_USER_UID": "1000",
+            "RUST_USER_GID": "1000",
+            "RUST_WORKDIR_NAME": "app"
         }
     },
     "runArgs": [
@@ -15,7 +20,7 @@
     "mounts": [
         {
             "type": "bind",
-            "source": "${localWorkspaceFolder}/app",
+            "source": "${localWorkspaceFolder}",
             "target": "/home/atcoder/app"
         }
     ],
@@ -24,6 +29,7 @@
     "customizations": {
         "vscode": {
             "extensions": [
+                "rust-lang.rust-analyzer@0.3.2029",
                 "vadimcn.vscode-lldb",
                 "tamasfe.even-better-toml"
             ],
