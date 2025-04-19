@@ -1,14 +1,35 @@
 {
-    "name": "vscode_atcoder_rust",
-    "dockerComposeFile": "docker-compose.yml",
-    "service": "vscode_atcoder_rust",
-    "extensions": [
-		"vadimcn.vscode-lldb",
-		"bungcip.better-toml",
-		"rust-lang.rust-analyzer"
-	],
-    "workspaceFolder": "/app",
-    "forwardPorts": [
-        7878
-    ]
+    "name": "vscode-atcoder-rust",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "..",
+        "args": {
+        }
+    },
+    "runArgs": [
+        "--name",
+        "vscode-atcoder-rust",
+        "--hostname",
+        "rust"
+    ],
+    "mounts": [
+        {
+            "type": "bind",
+            "source": "${localWorkspaceFolder}/app",
+            "target": "/home/atcoder/app"
+        }
+    ],
+    "containerUser": "atcoder",
+    "workspaceFolder": "/home/atcoder/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "vadimcn.vscode-lldb",
+                "tamasfe.even-better-toml"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    }
 }
