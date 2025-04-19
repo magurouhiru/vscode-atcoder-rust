@@ -1,14 +1,53 @@
+// ==========================================================
+// 🚨 注意: バージョン変更箇所 🚨
+// ==========================================================
+// - RUST_VERSION: build.args.RUST_VERSION
+// - rust-analyzer: customizations.vscode.extensions
+// ==========================================================
 {
-    "name": "vscode_atcoder_rust",
-    "dockerComposeFile": "docker-compose.yml",
-    "service": "vscode_atcoder_rust",
-    "extensions": [
-		"vadimcn.vscode-lldb",
-		"bungcip.better-toml",
-		"rust-lang.rust-analyzer"
-	],
-    "workspaceFolder": "/app",
-    "forwardPorts": [
-        7878
-    ]
+    "name": "vscode-atcoder-rust",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "..",
+        "args": {
+            // ==================================================
+            // 🚧 !!! RUST バージョン変更 !!! 🚧
+            // ==================================================
+            "RUST_VERSION": "1.70.0", // ⚠️ Rust のバージョンを変更する場合はここを編集
+            "RUST_USERNAME": "atcoder",
+            "RUST_USER_UID": "1000",
+            "RUST_USER_GID": "1000",
+            "RUST_WORKDIR_NAME": "app"
+        }
+    },
+    "runArgs": [
+        "--name",
+        "vscode-atcoder-rust",
+        "--hostname",
+        "rust"
+    ],
+    "mounts": [
+        {
+            "type": "bind",
+            "source": "${localWorkspaceFolder}",
+            "target": "/home/atcoder/app"
+        }
+    ],
+    "containerUser": "atcoder",
+    "workspaceFolder": "/home/atcoder/app",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                // ==================================================
+                // 🚧 !!! rust-analyzer バージョン変更 !!! 🚧
+                // ==================================================
+                "rust-lang.rust-analyzer@0.3.2029", // ⚠️ rust-analyzer のバージョンを変更する場合はここを編集
+                "vadimcn.vscode-lldb",
+                "tamasfe.even-better-toml"
+            ],
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "bash"
+            }
+        }
+    }
 }

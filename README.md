@@ -1,16 +1,27 @@
 # vscode-atcoder-rust
 VSCodeでAtCoderをRustでやるときのオレオレ環境です。  
 
-## ※注意1 Rustのバージョンは「1.47.0」です。「1.42.0」じゃないです。
-AtCoderの環境は1.42.0だけど、rust-lang.rust-analyzerが1.47.0以降じゃないと[動かない](https://github.com/rust-lang/rust-analyzer/issues/4172)からこれにしてます。  
-なんかまずそうだったらその時考えます。
+## バージョン情報
 
-## ※注意2 対応しているコンテストは ABC(AtCoder Beginner Contest)だけです。
+| ソフトウェア       | バージョン |
+|-------------------|-----------|
+| Rust              | 1.70.0    |
+| rust-analyzer     | 0.3.2029  |
 
-## 使い方
-1. オレオレ拡張機能「atcoder-1.0.0.vsix」をインストールしてください。
-![demo_install](https://raw.github.com/wiki/magurouhiru/vscode-extension-atcoder/images/atcoder_extension_install.gif)
-2. オレオレ拡張機能「atcoder」でプロジェクト（Rustだとプロジェクトとは言わない？）を作成してください。
-![demo_install](https://raw.github.com/wiki/magurouhiru/vscode-extension-atcoder/images/atcoder_extension_how.gif)
-3. できたプロジェクトの「src/main.rs」にゴリゴリ書いてください。
-4. テスト実行（cargo test）してあっていればOK！（...多分）
+**注意：2025/04/20現在のAtCoderに合わせているため、最新バージョンではありません。**  
+**注意：バージョン変更する場合は`.devcontainer\devcontainer.json`を変更してください。**
+
+## 前提
+- 使用するエディタはVSCode
+- 必須のVSCode の拡張機能
+    - `ms-vscode-remote.remote-containers`
+- Docker 環境
+
+## 使用方法
+1. コンテナに接続
+1. `src` ディレクトリ配下にソースファイルを作成
+1. `Cargo.toml` に`[[bin]]`を追記
+1. `tests` ディレクトリ配下にテストファイルを作成
+1. コーディング
+    - スニペットを用意しています。詳細は`.vscode\vscode-atcoder-rust.code-snippets`を確認ください。
+    - 実行(デバッグ)はmian(test)関数上部に表示される`▷Run|⚙Debug`を押してください。
