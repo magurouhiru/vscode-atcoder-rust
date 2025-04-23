@@ -90,4 +90,21 @@
 		],
 		"description": "Input n: u32, si: [String; n],"
 	},
+	"input N M": {
+		"scope": "rust",
+		"prefix": "i N M",
+		"body": [
+			"use proconio::input;",
+			"",
+			"fn main() {",
+			"    input! {",
+			"        n: u32,",
+			"        m: u32,",
+			"    }",
+			"",
+			"}",
+			"$1"
+		],
+		"description": "Input n: u32, m: u32,"
+	},
 }
