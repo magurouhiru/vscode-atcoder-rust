@@ -106,3 +106,31 @@ path = "/home/atcoder/app/src/abc/400/f.rs"
 [[bin]]
 name = "abc400g"
 path = "/home/atcoder/app/src/abc/400/g.rs"
+
+[[bin]]
+name = "abc399a"
+path = "/home/atcoder/app/src/abc/399/a.rs"
+
+[[bin]]
+name = "abc399b"
+path = "/home/atcoder/app/src/abc/399/b.rs"
+
+[[bin]]
+name = "abc399c"
+path = "/home/atcoder/app/src/abc/399/c.rs"
+
+[[bin]]
+name = "abc399d"
+path = "/home/atcoder/app/src/abc/399/d.rs"
+
+[[bin]]
+name = "abc399e"
+path = "/home/atcoder/app/src/abc/399/e.rs"
+
+[[bin]]
+name = "abc399f"
+path = "/home/atcoder/app/src/abc/399/f.rs"
+
+[[bin]]
+name = "abc399g"
+path = "/home/atcoder/app/src/abc/399/g.rs"

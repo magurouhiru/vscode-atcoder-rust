@@ -107,4 +107,22 @@
 		],
 		"description": "Input n: u32, m: u32,"
 	},
+	"input N S T": {
+		"scope": "rust",
+		"prefix": "i N S T",
+		"body": [
+			"use proconio::input;",
+			"",
+			"fn main() {",
+			"    input! {",
+			"        n: u32,",
+			"        s: String,",
+			"        t: String,",
+			"    }",
+			"",
+			"}",
+			"$1"
+		],
+		"description": "Input n: u32, s: String, t: String,"
+	},
 }
