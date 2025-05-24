@@ -65,13 +65,13 @@
 			"",
 			"fn main() {",
 			"    input! {",
-			"        s: u32,",
+			"        s: usize,",
 			"    }",
 			"",
 			"}",
 			"$1"
 		],
-		"description": "Input s: u32,"
+		"description": "Input s: usize,"
 	},
 	"input N Si": {
 		"scope": "rust",
@@ -81,14 +81,14 @@
 			"",
 			"fn main() {",
 			"    input! {",
-			"        n: u32,",
+			"        n: usize,",
 			"        si: [String; n],",
 			"    }",
 			"",
 			"}",
 			"$1"
 		],
-		"description": "Input n: u32, si: [String; n],"
+		"description": "Input n: usize, si: [String; n],"
 	},
 	"input N M": {
 		"scope": "rust",
@@ -98,14 +98,14 @@
 			"",
 			"fn main() {",
 			"    input! {",
-			"        n: u32,",
-			"        m: u32,",
+			"        n: usize,",
+			"        m: usize,",
 			"    }",
 			"",
 			"}",
 			"$1"
 		],
-		"description": "Input n: u32, m: u32,"
+		"description": "Input n: usize, m: usize,"
 	},
 	"input N S T": {
 		"scope": "rust",
@@ -115,7 +115,7 @@
 			"",
 			"fn main() {",
 			"    input! {",
-			"        n: u32,",
+			"        n: usize,",
 			"        s: String,",
 			"        t: String,",
 			"    }",
@@ -123,6 +123,6 @@
 			"}",
 			"$1"
 		],
-		"description": "Input n: u32, s: String, t: String,"
+		"description": "Input n: usize, s: String, t: String,"
 	},
 }
