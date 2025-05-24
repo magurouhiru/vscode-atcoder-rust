@@ -65,13 +65,13 @@
 			"",
 			"fn main() {",
 			"    input! {",
-			"        s: u32,",
+			"        s: usize,",
 			"    }",
 			"",
 			"}",
 			"$1"
 		],
-		"description": "Input s: u32,"
+		"description": "Input s: usize,"
 	},
 	"input N Si": {
 		"scope": "rust",
@@ -81,13 +81,13 @@
 			"",
 			"fn main() {",
 			"    input! {",
-			"        n: u32,",
+			"        n: usize,",
 			"        si: [String; n],",
 			"    }",
 			"",
 			"}",
 			"$1"
 		],
-		"description": "Input n: u32, si: [String; n],"
+		"description": "Input n: usize, si: [String; n],"
 	},
 }
