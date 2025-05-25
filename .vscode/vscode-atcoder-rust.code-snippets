@@ -90,4 +90,21 @@
 		],
 		"description": "Input n: usize, si: [String; n],"
 	},
+	"input T U": {
+		"scope": "rust",
+		"prefix": "i T U",
+		"body": [
+			"use proconio::{input, marker::Chars};",
+			"",
+			"fn main() {",
+			"    input! {",
+			"        t: Chars,",
+			"        u: Chars,",
+			"    }",
+			"",
+			"}",
+			"$1"
+		],
+		"description": "Input t: Chars, u: Chars,"
+	},
 }
