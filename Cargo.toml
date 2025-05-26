@@ -162,3 +162,59 @@ path = "/home/atcoder/app/src/abc/404/f.rs"
 [[bin]]
 name = "abc404g"
 path = "/home/atcoder/app/src/abc/404/g.rs"
+
+[[bin]]
+name = "abc405a"
+path = "/home/atcoder/app/src/abc/405/a.rs"
+
+[[test]]
+name = "test_abc405a"
+path = "/home/atcoder/app/src/abc/405/test_a.rs"
+
+[[bin]]
+name = "abc405b"
+path = "/home/atcoder/app/src/abc/405/b.rs"
+
+[[test]]
+name = "test_abc405b"
+path = "/home/atcoder/app/src/abc/405/test_b.rs"
+
+[[bin]]
+name = "abc405c"
+path = "/home/atcoder/app/src/abc/405/c.rs"
+
+[[test]]
+name = "test_abc405c"
+path = "/home/atcoder/app/src/abc/405/test_c.rs"
+
+[[bin]]
+name = "abc405d"
+path = "/home/atcoder/app/src/abc/405/d.rs"
+
+[[test]]
+name = "test_abc405d"
+path = "/home/atcoder/app/src/abc/405/test_d.rs"
+
+[[bin]]
+name = "abc405e"
+path = "/home/atcoder/app/src/abc/405/e.rs"
+
+[[test]]
+name = "test_abc405e"
+path = "/home/atcoder/app/src/abc/405/test_e.rs"
+
+[[bin]]
+name = "abc405f"
+path = "/home/atcoder/app/src/abc/405/f.rs"
+
+[[test]]
+name = "test_abc405f"
+path = "/home/atcoder/app/src/abc/405/test_f.rs"
+
+[[bin]]
+name = "abc405g"
+path = "/home/atcoder/app/src/abc/405/g.rs"
+
+[[test]]
+name = "test_abc405g"
+path = "/home/atcoder/app/src/abc/405/test_g.rs"

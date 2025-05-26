@@ -73,6 +73,23 @@
 		],
 		"description": "Input s: usize,"
 	},
+	"input N Ai": {
+		"scope": "rust",
+		"prefix": "i N Ai",
+		"body": [
+			"use proconio::input;",
+			"",
+			"fn main() {",
+			"    input! {",
+			"        n: usize,",
+			"        ai: [usize; n],",
+			"    }",
+			"",
+			"}",
+			"$1"
+		],
+		"description": "Input n: usize, ai: [usize; n],"
+	},
 	"input N Si": {
 		"scope": "rust",
 		"prefix": "i N Si",
