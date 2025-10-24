@@ -386,3 +386,59 @@ smallvec = "=1.11.0"
 # [[test]]
 # name = "test_abc409g"
 # path = "/home/atcoder/app/src/abc/409/test_g.rs"
+
+[[bin]]
+name = "abc411a"
+path = "/home/atcoder/app/src/abc/411/a.rs"
+
+[[test]]
+name = "test_abc411a"
+path = "/home/atcoder/app/src/abc/411/test_a.rs"
+
+[[bin]]
+name = "abc411b"
+path = "/home/atcoder/app/src/abc/411/b.rs"
+
+[[test]]
+name = "test_abc411b"
+path = "/home/atcoder/app/src/abc/411/test_b.rs"
+
+[[bin]]
+name = "abc411c"
+path = "/home/atcoder/app/src/abc/411/c.rs"
+
+[[test]]
+name = "test_abc411c"
+path = "/home/atcoder/app/src/abc/411/test_c.rs"
+
+[[bin]]
+name = "abc411d"
+path = "/home/atcoder/app/src/abc/411/d.rs"
+
+[[test]]
+name = "test_abc411d"
+path = "/home/atcoder/app/src/abc/411/test_d.rs"
+
+[[bin]]
+name = "abc411e"
+path = "/home/atcoder/app/src/abc/411/e.rs"
+
+[[test]]
+name = "test_abc411e"
+path = "/home/atcoder/app/src/abc/411/test_e.rs"
+
+[[bin]]
+name = "abc411f"
+path = "/home/atcoder/app/src/abc/411/f.rs"
+
+[[test]]
+name = "test_abc411f"
+path = "/home/atcoder/app/src/abc/411/test_f.rs"
+
+[[bin]]
+name = "abc411g"
+path = "/home/atcoder/app/src/abc/411/g.rs"
+
+[[test]]
+name = "test_abc411g"
+path = "/home/atcoder/app/src/abc/411/test_g.rs"
