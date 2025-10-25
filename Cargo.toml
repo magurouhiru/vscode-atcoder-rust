@@ -442,3 +442,59 @@ path = "/home/atcoder/app/src/abc/411/g.rs"
 [[test]]
 name = "test_abc411g"
 path = "/home/atcoder/app/src/abc/411/test_g.rs"
+
+[[bin]]
+name = "abc412a"
+path = "/home/atcoder/app/src/abc/412/a.rs"
+
+[[test]]
+name = "test_abc412a"
+path = "/home/atcoder/app/src/abc/412/test_a.rs"
+
+[[bin]]
+name = "abc412b"
+path = "/home/atcoder/app/src/abc/412/b.rs"
+
+[[test]]
+name = "test_abc412b"
+path = "/home/atcoder/app/src/abc/412/test_b.rs"
+
+[[bin]]
+name = "abc412c"
+path = "/home/atcoder/app/src/abc/412/c.rs"
+
+[[test]]
+name = "test_abc412c"
+path = "/home/atcoder/app/src/abc/412/test_c.rs"
+
+[[bin]]
+name = "abc412d"
+path = "/home/atcoder/app/src/abc/412/d.rs"
+
+[[test]]
+name = "test_abc412d"
+path = "/home/atcoder/app/src/abc/412/test_d.rs"
+
+[[bin]]
+name = "abc412e"
+path = "/home/atcoder/app/src/abc/412/e.rs"
+
+[[test]]
+name = "test_abc412e"
+path = "/home/atcoder/app/src/abc/412/test_e.rs"
+
+[[bin]]
+name = "abc412f"
+path = "/home/atcoder/app/src/abc/412/f.rs"
+
+[[test]]
+name = "test_abc412f"
+path = "/home/atcoder/app/src/abc/412/test_f.rs"
+
+[[bin]]
+name = "abc412g"
+path = "/home/atcoder/app/src/abc/412/g.rs"
+
+[[test]]
+name = "test_abc412g"
+path = "/home/atcoder/app/src/abc/412/test_g.rs"
