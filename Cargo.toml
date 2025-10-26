@@ -187,13 +187,13 @@ smallvec = "=1.11.0"
 # name = "test_abc405c"
 # path = "/home/atcoder/app/src/abc/405/test_c.rs"
 
-# [[bin]]
-# name = "abc405d"
-# path = "/home/atcoder/app/src/abc/405/d.rs"
+[[bin]]
+name = "abc405d"
+path = "/home/atcoder/app/src/abc/405/d.rs"
 
-# [[test]]
-# name = "test_abc405d"
-# path = "/home/atcoder/app/src/abc/405/test_d.rs"
+[[test]]
+name = "test_abc405d"
+path = "/home/atcoder/app/src/abc/405/test_d.rs"
 
 # [[bin]]
 # name = "abc405e"
