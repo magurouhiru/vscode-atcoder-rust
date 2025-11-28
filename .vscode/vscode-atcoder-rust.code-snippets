@@ -75,37 +75,37 @@
 	},
 	"input N Ai": {
 		"scope": "rust",
-		"prefix": "i N Ai",
+		"prefix": "i N A",
 		"body": [
 			"use proconio::input;",
 			"",
 			"fn main() {",
 			"    input! {",
 			"        n: usize,",
-			"        ai: [usize; n],",
+			"        a: [usize; n],",
 			"    }",
 			"",
 			"}",
 			"$1"
 		],
-		"description": "Input n: usize, ai: [usize; n],"
+		"description": "Input n: usize, a: [usize; n],"
 	},
 	"input N Si": {
 		"scope": "rust",
-		"prefix": "i N Si",
+		"prefix": "i N S",
 		"body": [
 			"use proconio::input;",
 			"",
 			"fn main() {",
 			"    input! {",
 			"        n: usize,",
-			"        si: [String; n],",
+			"        s: [String; n],",
 			"    }",
 			"",
 			"}",
 			"$1"
 		],
-		"description": "Input n: usize, si: [String; n],"
+		"description": "Input n: usize, s: [String; n],"
 	},
 	"input T U": {
 		"scope": "rust",
